@@ -1,8 +1,12 @@
 {
   "name": "@hexlet/code",
+  "type": "module",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/Wedelion/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Wedelion/frontend-project-lvl1/actions)",
   "main": "index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Wedelion/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/Wedelion/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/Wedelion/frontend-project-lvl1#readme",
+  "bin": {
+    "code": "bin/brain-games.js"
+  }
 }
