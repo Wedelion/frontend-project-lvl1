@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-console.log('Welcome to the Brain Games!');
+import askForName from '../src/cli.js';
 
-import { askForName } from "../src/cli.js";
+console.log('Welcome to the Brain Games!');
 
 askForName();
